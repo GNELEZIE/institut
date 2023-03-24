@@ -61,7 +61,7 @@ include_once $layout.'/slider.php';
 </section>
 
 <section class="tagent__area grey-bg-3 pt-110 pb-40">
-    <div class="tagent__bg" style="background-image: url(<?=$cdn_domaine?>/assets/img/team/team.jpg);"></div>
+    <div class="tagent__bg" style="background-image: url(<?=$cdn_domaine?>/media/03.jpeg);"></div>
     <div class="container">
         <div class="row">
             <div class="col-xxl-6 col-xl-6 col-lg-6 d-flex align-items-center">
@@ -93,59 +93,66 @@ include_once $layout.'/slider.php';
                 <article class="blog mb-30 radius-6">
                     <div class="blog__thumb">
                         <a href="#">
-                            <img src="<?=$cdn_domaine?>/media/blog1.jpg"  class="radius-top-6" alt="">
+                            <img src="<?=$cdn_domaine?>/media/batimentlarge.jpg"  class="radius-top-6 cover230" alt="">
                         </a>
                     </div>
                     <div class="blog__content border-none bg-white radius-bottom-6">
                         <div class="blog-text">
                             <h3 class="blog__content__title">
-                                <a href="#">Web Development To Update React Hooks Cons</a>
+                                <a href="#">Génie Civil Option Bâtiment</a>
                             </h3>
-                            <p>We have helped students, business persons, tourists......</p>
+                            <p> Cette option donne à l’étudiant, les compétences pour la conception...</p>
                             <div class="read-more">
                                 <a href="#">En savoir plus <i class="fal fa-long-arrow-right"></i></a>
                             </div>
                         </div>
                     </div>
                 </article>
-            </div><div class="col-xxl-4 col-xl-4 col-lg-4 col-md-6">
+            </div>
+            <div class="col-xxl-4 col-xl-4 col-lg-4 col-md-6">
                 <article class="blog mb-30 radius-6">
                     <div class="blog__thumb">
                         <a href="#">
-                            <img src="<?=$cdn_domaine?>/media/blog1.jpg"  class="radius-top-6" alt="">
+                            <img src="<?=$cdn_domaine?>/media/app.jpg"  class="radius-top-6 cover230" alt="">
                         </a>
                     </div>
                     <div class="blog__content border-none bg-white radius-bottom-6">
                         <div class="blog-text">
                             <h3 class="blog__content__title">
-                                <a href="#">Web Development To Update React Hooks Cons</a>
+                                <a href="#">Informatique & Développeur</a>
                             </h3>
-                            <p>We have helped students, business persons, tourists......</p>
+                            <p>Le titulaire du BTS Informatique : Développeur d’Application (IDA) met ...</p>
                             <div class="read-more">
                                 <a href="#">En savoir plus <i class="fal fa-long-arrow-right"></i></a>
                             </div>
                         </div>
                     </div>
                 </article>
-            </div><div class="col-xxl-4 col-xl-4 col-lg-4 col-md-6">
+            </div>
+            <div class="col-xxl-4 col-xl-4 col-lg-4 col-md-6">
                 <article class="blog mb-30 radius-6">
                     <div class="blog__thumb">
                         <a href="#">
-                            <img src="<?=$cdn_domaine?>/media/blog1.jpg"  class="radius-top-6" alt="">
+                            <img src="<?=$cdn_domaine?>/media/gc.jpeg"  class="radius-top-6 cover230" alt="">
                         </a>
                     </div>
                     <div class="blog__content border-none bg-white radius-bottom-6">
                         <div class="blog-text">
                             <h3 class="blog__content__title">
-                                <a href="#">Web Development To Update React Hooks Cons</a>
+                                <a href="#">Gestion commerciale</a>
                             </h3>
-                            <p>We have helped students, business persons, tourists......</p>
+                            <p>La gestion commerciale repose sur l’ensemble des tâches liées à l’activité...</p>
                             <div class="read-more">
                                 <a href="#">En savoir plus <i class="fal fa-long-arrow-right"></i></a>
                             </div>
                         </div>
                     </div>
                 </article>
+            </div>
+            <div class="col-md-12">
+                <div class="read-more">
+                    <a href="#" class="theme-btn radius-6">Voir plus de formation</a>
+                </div>
             </div>
 
         </div>
@@ -221,11 +228,7 @@ include_once $layout.'/slider.php';
             </div>
         </div>
     </div>
-
 </section>
-
-
-
 
 
 <section class="global-area pt-120 pb-120">
@@ -233,7 +236,6 @@ include_once $layout.'/slider.php';
         <div class="row">
             <div class="col-xxl-6 col-xl-6 col-lg-6 col-md-6">
                 <div class="section_title_wrapper global-text mb-30">
-
                     <h2 class="section-title">
                         Nous travaillons à l'échelle national avec des partenaires dans plus de 3 villes populaires.
                     </h2>

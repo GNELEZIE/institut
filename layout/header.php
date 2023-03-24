@@ -3,10 +3,10 @@
 <head>
     <meta charset="utf-8">
     <meta http-equiv="x-ua-compatible" content="ie=edge">
-    <title>Ecole</title>
+    <title>Institut is2g - <?=ucfirst($page)?></title>
     <meta name="description" content="">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="shortcut icon" type="image/x-icon" href="<?=$cdn_domaine?>/media/icon.png">
+    <link rel="shortcut icon" type="image/x-icon" href="<?=$cdn_domaine?>/media/log.png">
     <link rel="stylesheet" href="<?=$cdn_domaine?>/assets/css/bootstrap.min.css">
     <link rel="stylesheet" href="<?=$cdn_domaine?>/assets/css/animate.min.css">
     <link rel="stylesheet" href="<?=$cdn_domaine?>/assets/css/custom-animation.css">
@@ -27,7 +27,7 @@
 
     <style>
         :root{
-            --color-default : #E48216;
+            --color-default : #e43a3b;
         }
         .main-menu ul li a, .mean-container .mean-nav ul li a, a,h1,h2,h3,h4,h5,p {
             text-transform: initial  !important;
@@ -41,6 +41,15 @@
         }
         .color-orange{
             color: var(--color-default);
+        }
+        .theme-bg {
+            background: var(--color-default) !important;
+        }
+        .theme-btn{
+            background: var(--color-default);
+        }
+        .main-menu-wrapper__call-number h5 {
+            color: var(--color-default) !important;
         }
         .radius-6{
             border-radius: 6px;
@@ -68,9 +77,18 @@
             border-radius: 6px 6px 0 0 !important;
         }
         .art-shadow{
-            box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+            box-shadow: rgba(0, 0, 0, 0.24) 0 3px 8px;
         }
-
+        .my-log{
+            width: 75px;
+        }
+        .cover230{
+            object-fit: cover;
+            height: 230px !important;
+        }
+        .section-formation article{
+            box-shadow: rgba(50, 50, 93, 0.25) 0 13px 27px -5px, rgba(0, 0, 0, 0.3) 0 8px 16px -8px;
+        }
 
 
 
@@ -125,7 +143,7 @@
             <div class="row align-items-center">
                 <div class="col-xxl-2 col-xl-2 col-lg-2 col-8">
                     <div class="header-logo">
-                        <a href="<?=$domaine?>"><img src="<?=$cdn_domaine?>/media/logo.png" class="img-fluid" alt="img"></a>
+                        <a href="<?=$domaine?>"><img src="<?=$cdn_domaine?>/media/log.png" class="img-fluid my-log" alt="img"></a>
                     </div>
                 </div>
                 <div class="col-xxl-7 col-xl-7 col-lg-7 col-4">
@@ -134,7 +152,7 @@
                             <ul>
                                 <li><a href="<?=$domaine?>">Accueil</a></li>
                                 <li><a href="<?=$domaine?>/a-propos">A propos</a></li>
-                                <li><a href="<?=$domaine?>/formation">Formations</a></li>
+                                <li><a href="<?=$domaine?>/formations">Formations</a></li>
                                 <li><a href="<?=$domaine?>/actualite">Actualité</a></li>
                                 <li><a href="<?=$domaine?>/contact">Contact</a></li>
                             </ul>
