@@ -23,7 +23,8 @@
     <link rel="stylesheet" href="<?=$cdn_domaine?>/assets/css/default.css">
     <link rel="stylesheet" href="<?=$cdn_domaine?>/assets/css/main.css">
     <link rel="stylesheet" href="<?=$cdn_domaine?>/assets/css/font-size.css">
-
+    <link rel="stylesheet" href="<?=$cdn_domaine?>/assets/libs/intltelinput/css/intlTelInput.min.css"/>
+    <link rel="stylesheet" href="<?=$cdn_domaine?>/assets/libs/sweetalert/sweetalert.css"  type="text/css">
 
     <style>
         :root{
@@ -84,10 +85,16 @@
         }
         .cover230{
             object-fit: cover;
-            height: 230px !important;
+            height: 300px !important;
         }
         .section-formation article{
             box-shadow: rgba(50, 50, 93, 0.25) 0 13px 27px -5px, rgba(0, 0, 0, 0.3) 0 8px 16px -8px;
+        }
+        .iti{
+            width: 100% !important;
+        }
+        .current a{
+            color: var(--color-default) !important;
         }
 
 
@@ -130,7 +137,7 @@
                     <div class="topheader-info">
                         <div class="header-location f-right">
                             <ul>
-                                <li><i class="flaticon-pin"></i><a href="<?=$domaine?>/contact">Abidjan, Yopougon ananeraie</a></li>
+                                <li><i class="flaticon-pin"></i><a href="<?=$domaine?>/contact">Groupement foncier, yopougon Bel Air</a></li>
                             </ul>
                         </div>
                     </div>
@@ -150,11 +157,11 @@
                     <div class="main-menu d-none d-lg-block ">
                         <nav id="mobile-menu">
                             <ul>
-                                <li><a href="<?=$domaine?>">Accueil</a></li>
-                                <li><a href="<?=$domaine?>/a-propos">A propos</a></li>
-                                <li><a href="<?=$domaine?>/formations">Formations</a></li>
-                                <li><a href="<?=$domaine?>/actualite">Actualité</a></li>
-                                <li><a href="<?=$domaine?>/contact">Contact</a></li>
+                                <li class="<?= page_active('') ;?>"><a href="<?=$domaine?>">Accueil</a></li>
+                                <li class="<?= page_active('a-propos') ;?>"><a href="<?=$domaine?>/a-propos">A propos</a></li>
+                                <li class="<?= page_active('formations') ;?>"><a href="<?=$domaine?>/formations">Formations</a></li>
+                                <li class="<?= page_active('blog') ;?>"><a href="<?=$domaine?>/blog">Actualité</a></li>
+                                <li class="<?= page_active('contact') ;?>"><a href="<?=$domaine?>/contact">Contact</a></li>
                             </ul>
                         </nav>
                     </div>
@@ -164,15 +171,12 @@
                 </div>
                 <div class="col-xxl-3 col-xl-3 col-lg-3">
                     <div class="main-menu-wrapper d-flex align-items-center justify-content-end">
-                        <div class="main-menu-wrapper__search text-left">
-                            <a class="search-btn nav-search search-trigger" href="#"><i class="fal fa-search"></i></a>
-                        </div>
                         <div class="main-menu-wrapper__call-number d-flex align-items-center">
                             <div class="main-menu-wrapper__call-icon mr-10">
                               <i class="fa fa-headset font-17 color-orange"></i>
                             </div>
                             <div class="main-menu-wrapper__call-text">
-                                <h5><a href="tel:002250000000" class="font-15">+225 00 00 00 00 00</a></h5>
+                                <h5><a href="tel:2723449231" class="font-15">27 23 44 92 31</a></h5>
                             </div>
                         </div>
                     </div>

@@ -42,7 +42,7 @@ if(!function_exists('page_active')){
             $i = $g[0];
         }
         if($page == $i){
-            return 'mm-active';
+            return 'current';
         }else{
             return '';
         }

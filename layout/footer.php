@@ -6,7 +6,7 @@
                 <div class="footer-about-1">
                     <div class="footer-about-1-content">
                         <div class="footer-logo footer-logo-3 mb-30">
-                            <a href="#"><img src="<?=$cdn_domaine?>/media/logo-w.png" alt=""></a>
+                           <h3 class="footer-widget__title">Institut IS2G</h3>
                         </div>
                         <p class="mb-50">Sed perspiciatis unde omnis natus error voluptatem accusan doloreqe laudantium totam aperiam eaque sipsa quae abillo inventore</p>
                         <h4 class="footer-about-1__title mb-30">Suivez-nous</h4>
@@ -47,9 +47,9 @@
                        Navigation
                     </h3>
                     <ul class="footer-widget_menu-link">
-                        <li><a href="#">Formations</a></li>
-                        <li><a href="#">Actualité</a></li>
-                        <li><a href="#">Contact</a></li>
+                        <li><a href="<?=$domaine?>/formations">Formations</a></li>
+                        <li><a href="<?=$domaine?>/blog">Actualité</a></li>
+                        <li><a href="<?=$domaine?>/contact">Contact</a></li>
                     </ul>
                 </div>
             </div>
@@ -60,8 +60,8 @@
                     </h3>
                     <ul class="footer-widget_menu-link">
                         <li><a href="#">Mention légal</a></li>
-                        <li><a href="#">Partenaire</a></li>
-                        <li><a href="#">Partenaire</a></li>
+
+
                     </ul>
                 </div>
             </div>
@@ -71,9 +71,9 @@
                        Contact
                     </h3>
                     <ul class="footer-widget_menu-link-info">
-                        <li><a href="tel:1587203692"><i class="far fa-phone-alt"></i> <span> +225 00 00 00 00</span> </a></li>
-                        <li><a href="#"><i class="fal fa-envelope"></i> <span><span class="__cf_email__">test@gmail.com</span></span></a></li>
-                        <li><a href="#"><i class="fal fa-map-marker-alt"></i> <span>Abidjan, Yopougon Anneraie</span> </a></li>
+                        <li><a href="tel:002250140971212"><i class="far fa-phone-alt"></i> <span> +225 01 40 97 12 12</span> </a></li>
+                        <li><a href="mailTo:is2gyop@gmail.com"><i class="fal fa-envelope"></i> <span><span class="__cf_email__">is2gyop@gmail.com</span></span></a></li>
+                        <li><a href="#"><i class="fal fa-map-marker-alt"></i> <span>Groupement foncier, yopougon Bel Air</span> </a></li>
                     </ul>
                 </div>
             </div>
@@ -90,7 +90,7 @@
                     </div>
                     <div class="footer-copyright__wrapper__call-number copy-right-cell">
                         <span>Téléphone</span>
-                        <h5><a href="tel:002250000000">+225 00 00 00 00 00</a></h5>
+                        <h5><a href="tel:002250103434187">+225 01 03 43 41 87</a></h5>
                     </div>
                 </div>
             </div>
@@ -128,5 +128,7 @@
 <script src="<?=$cdn_domaine?>/assets/js/wow.min.js"></script>
 <script src="<?=$cdn_domaine?>/assets/js/jquery.counterup.min.js"></script>
 <script src="<?=$cdn_domaine?>/assets/js/main.js"></script>
+<script src="<?=$cdn_domaine?>/assets/libs/intltelinput/js/intlTelInput.min.js"></script>
+<script src="<?=$cdn_domaine?>/assets/libs/sweetalert/sweetalert2.min.js"></script>
 </body>
 </html>

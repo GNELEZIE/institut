@@ -89,61 +89,41 @@ include_once $layout.'/slider.php';
                    Nos formations
                 </h2>
             </div>
-            <div class="col-xxl-4 col-xl-4 col-lg-4 col-md-6">
+            <div class="col-xxl-6 col-xl-6 col-lg-6 col-md-6">
                 <article class="blog mb-30 radius-6">
                     <div class="blog__thumb">
-                        <a href="#">
-                            <img src="<?=$cdn_domaine?>/media/batimentlarge.jpg"  class="radius-top-6 cover230" alt="">
+                        <a href="<?=$domaine?>/licences">
+                            <img src="<?=$cdn_domaine?>/media/ban2.jpeg"  class="radius-top-6 cover230" alt="">
                         </a>
                     </div>
                     <div class="blog__content border-none bg-white radius-bottom-6">
                         <div class="blog-text">
                             <h3 class="blog__content__title">
-                                <a href="#">Génie Civil Option Bâtiment</a>
+                                <a href="<?=$domaine?>/licences">Nos licences</a>
                             </h3>
-                            <p> Cette option donne à l’étudiant, les compétences pour la conception...</p>
+                            <p>Logistiques, audit et contrôle de gestion,Marketing,Ressources Humaines</p>
                             <div class="read-more">
-                                <a href="#">En savoir plus <i class="fal fa-long-arrow-right"></i></a>
+                                <a href="<?=$domaine?>/licences">En savoir plus <i class="fal fa-long-arrow-right"></i></a>
                             </div>
                         </div>
                     </div>
                 </article>
             </div>
-            <div class="col-xxl-4 col-xl-4 col-lg-4 col-md-6">
+            <div class="col-xxl-6 col-xl-6 col-lg-6 col-md-6">
                 <article class="blog mb-30 radius-6">
                     <div class="blog__thumb">
-                        <a href="#">
-                            <img src="<?=$cdn_domaine?>/media/app.jpg"  class="radius-top-6 cover230" alt="">
+                        <a href="<?=$domaine?>/filirers-bts">
+                            <img src="<?=$cdn_domaine?>/media/ban4.jpeg"  class="radius-top-6 cover230" alt="">
                         </a>
                     </div>
                     <div class="blog__content border-none bg-white radius-bottom-6">
                         <div class="blog-text">
                             <h3 class="blog__content__title">
-                                <a href="#">Informatique & Développeur</a>
+                                <a href="<?=$domaine?>/filirers-bts">Nos filières BTS</a>
                             </h3>
-                            <p>Le titulaire du BTS Informatique : Développeur d’Application (IDA) met ...</p>
+                            <p>Génie Civil Option Bâtiment, Informatique & Développeur d'aplication</p>
                             <div class="read-more">
-                                <a href="#">En savoir plus <i class="fal fa-long-arrow-right"></i></a>
-                            </div>
-                        </div>
-                    </div>
-                </article>
-            </div>
-            <div class="col-xxl-4 col-xl-4 col-lg-4 col-md-6">
-                <article class="blog mb-30 radius-6">
-                    <div class="blog__thumb">
-                        <a href="#">
-                            <img src="<?=$cdn_domaine?>/media/gc.jpeg"  class="radius-top-6 cover230" alt="">
-                        </a>
-                    </div>
-                    <div class="blog__content border-none bg-white radius-bottom-6">
-                        <div class="blog-text">
-                            <h3 class="blog__content__title">
-                                <a href="#">Gestion commerciale</a>
-                            </h3>
-                            <p>La gestion commerciale repose sur l’ensemble des tâches liées à l’activité...</p>
-                            <div class="read-more">
-                                <a href="#">En savoir plus <i class="fal fa-long-arrow-right"></i></a>
+                                <a href="<?=$domaine?>/filirers-bts">En savoir plus <i class="fal fa-long-arrow-right"></i></a>
                             </div>
                         </div>
                     </div>
@@ -151,7 +131,7 @@ include_once $layout.'/slider.php';
             </div>
             <div class="col-md-12">
                 <div class="read-more">
-                    <a href="#" class="theme-btn radius-6">Voir plus de formation</a>
+                    <a href="<?=$domaine?>/formations" class="theme-btn radius-6">Voir plus de formation</a>
                 </div>
             </div>
 
@@ -178,18 +158,18 @@ include_once $layout.'/slider.php';
             <div class="col-xxl-6 col-xl-6 col-lg-6 mb-30">
                 <div class="about_wrapper">
                     <div class="about_wrapper__certificate">
-                        <img src="<?=$cdn_domaine?>/assets/img/about/certificate.png" alt="">
+                        <img src="<?=$cdn_domaine?>/media/certificate.png" alt="">
                     </div>
                     <div class="about_wrapper__group">
                         <div class="about_wrapper__group-top mb-15">
-                            <img src="<?=$cdn_domaine?>/assets/img/about/about-1.jpg" alt="">
+                            <img src="<?=$cdn_domaine?>/media/02.jpeg" alt="">
                         </div>
                         <div class="about_wrapper__group-btm d-flex align-items-center justify-content-end">
                             <div class="about_wrapper__group-btm-img1 ml-30">
-                                <img src="<?=$cdn_domaine?>/assets/img/about/about-2.jpg" alt="">
+                                <img src="<?=$cdn_domaine?>/media/01.jpeg" alt="">
                             </div>
                             <div class="about_wrapper__group-btm-img2 ml-15">
-                                <img src="<?=$cdn_domaine?>/assets/img/about/about-3.jpg" alt="">
+                                <img src="<?=$cdn_domaine?>/media/ban4.jpeg" alt="">
                             </div>
                         </div>
                     </div>
@@ -239,7 +219,6 @@ include_once $layout.'/slider.php';
                     <h2 class="section-title">
                         Nous travaillons à l'échelle national avec des partenaires dans plus de 3 villes populaires.
                     </h2>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
                 </div>
             </div>
             <div class="col-xxl-6 col-xl-6 col-lg-6 col-md-6">
@@ -253,11 +232,6 @@ include_once $layout.'/slider.php';
 <section class="calltoaction-area d-flex align-items-center" style="background-image: url(<?=$cdn_domaine?>/media//cl-bg.jpg);">
     <div class="container">
         <div class="row align-items-center">
-            <div class="col-xxl-3 col-xl-3 col-lg-3">
-                <div class="calltoaction-img ">
-                    <img src="<?=$cdn_domaine?>/media/cl-1.png" alt="">
-                </div>
-            </div>
             <div class="col-xxl-6 col-xl-6 col-lg-6 col-md-8">
                 <h4 class="calltoaction-title pt-80 pb-75">
                     Obtenez un emploi qualifié à l'étranger en suivant nos cours techniques.
@@ -277,43 +251,42 @@ include_once $layout.'/slider.php';
         <div class="row ">
             <div class="col-xxl-6 col-xl-6 col-lg-6 wow fadeInUp" data-wow-delay="0.3s" style="visibility: visible; animation-delay: 0.3s; animation-name: fadeInUp;">
                 <div class="section_title_wrapper partners-65 mb-30">
-                    <h2 class="section-title">
+                    <h2 class="section-title mb-5">
                         Nos partenaires
                     </h2>
-                    <p class="mt-30 mb-40">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.  </p>
-                    <a href="<?=$domaine?>/partenaire" class="theme-btn partner-btn">Voir tous les partenaires</a>
+                    <a href="<?=$domaine?>/partenaires" class="theme-btn partner-btn">Voir tous les partenaires</a>
                 </div>
             </div>
             <div class="col-xxl-6 col-xl-6 col-lg-6 wow fadeInUp" data-wow-delay="0.5s" style="visibility: visible; animation-delay: 0.5s; animation-name: fadeInUp;">
                 <div class="row g-0">
                     <div class="col-xxl-4 col-xl-4 col-lg-4 col-md-6">
                         <div class="partner-img">
-                            <a href="partners.html"><img src="<?=$cdn_domaine?>/assets/img/partners/pt-1.png" alt=""></a>
+                            <a href="#"><img src="<?=$cdn_domaine?>/media/pt-1.png" alt=""></a>
                         </div>
                     </div>
                     <div class="col-xxl-4 col-xl-4 col-lg-4 col-md-6">
                         <div class="partner-img">
-                            <a href="partners.html"><img src="<?=$cdn_domaine?>/assets/img/partners/pt-2.png" alt=""></a>
+                            <a href="#"><img src="<?=$cdn_domaine?>/media/pt-2.png" alt=""></a>
                         </div>
                     </div>
                     <div class="col-xxl-4 col-xl-4 col-lg-4 col-md-6">
                         <div class="partner-img">
-                            <a href="partners.html"><img src="<?=$cdn_domaine?>/assets/img/partners/pt-3.png" alt=""></a>
+                            <a href="#"><img src="<?=$cdn_domaine?>/media/pt-3.png" alt=""></a>
                         </div>
                     </div>
                     <div class="col-xxl-4 col-xl-4 col-lg-4 col-md-6">
                         <div class="partner-img">
-                            <a href="partners.html"><img src="<?=$cdn_domaine?>/assets/img/partners/pt-4.png" alt=""></a>
+                            <a href="#"><img src="<?=$cdn_domaine?>/media/pt-4.png" alt=""></a>
                         </div>
                     </div>
                     <div class="col-xxl-4 col-xl-4 col-lg-4 col-md-6">
                         <div class="partner-img">
-                            <a href="partners.html"><img src="<?=$cdn_domaine?>/assets/img/partners/pt-5.png" alt=""></a>
+                            <a href="#"><img src="<?=$cdn_domaine?>/media/pt-5.png" alt=""></a>
                         </div>
                     </div>
                     <div class="col-xxl-4 col-xl-4 col-lg-4 col-md-6">
                         <div class="partner-img">
-                            <a href="partners.html"><img src="<?=$cdn_domaine?>/assets/img/partners/pt-6.png" alt=""></a>
+                            <a href="#"><img src="<?=$cdn_domaine?>/media/pt-6.png" alt=""></a>
                         </div>
                     </div>
                 </div>
@@ -337,7 +310,7 @@ include_once $layout.'/slider.php';
             <div class="col-xxl-4 col-xl-4 col-lg-4 col-md-6">
                 <article class="blog mb-30 art-shadow">
                     <div class="blog__thumb">
-                        <a href="#"><img src="<?=$cdn_domaine?>/media/blog3.jpg" alt=""></a>
+                        <a href="<?=$domaine?>/details"><img src="<?=$cdn_domaine?>/media/blog3.jpg" alt=""></a>
                     </div>
                     <div class="blog__content">
                         <div class="blog-meta">
@@ -346,11 +319,11 @@ include_once $layout.'/slider.php';
                         </div>
                         <div class="blog-text">
                             <h3 class="blog__content__title">
-                                <a href="#">France Extend Health Insurance  Requirement</a>
+                                <a href="<?=$domaine?>/details">France Extend Health Insurance  Requirement</a>
                             </h3>
                             <p>We have helped students, business persons, tourists, clients with medical needs......</p>
                             <div class="read-more">
-                                <a href="#">Lire la suite <i class="fal fa-long-arrow-right"></i></a>
+                                <a href="<?=$domaine?>/details">Lire la suite <i class="fal fa-long-arrow-right"></i></a>
                             </div>
                         </div>
                     </div>
@@ -359,7 +332,7 @@ include_once $layout.'/slider.php';
             <div class="col-xxl-4 col-xl-4 col-lg-4 col-md-6">
                 <article class="blog mb-30 art-shadow">
                     <div class="blog__thumb">
-                        <a href="#"><img src="<?=$cdn_domaine?>/media/blog3.jpg" alt=""></a>
+                        <a href="<?=$domaine?>/details"><img src="<?=$cdn_domaine?>/media/blog3.jpg" alt=""></a>
                     </div>
                     <div class="blog__content">
                         <div class="blog-meta">
@@ -368,11 +341,11 @@ include_once $layout.'/slider.php';
                         </div>
                         <div class="blog-text">
                             <h3 class="blog__content__title">
-                                <a href="#">France Extend Health Insurance  Requirement</a>
+                                <a href="<?=$domaine?>/details">France Extend Health Insurance  Requirement</a>
                             </h3>
                             <p>We have helped students, business persons, tourists, clients with medical needs......</p>
                             <div class="read-more">
-                                <a href="#">Lire la suite <i class="fal fa-long-arrow-right"></i></a>
+                                <a href="<?=$domaine?>/details">Lire la suite <i class="fal fa-long-arrow-right"></i></a>
                             </div>
                         </div>
                     </div>
@@ -381,7 +354,7 @@ include_once $layout.'/slider.php';
             <div class="col-xxl-4 col-xl-4 col-lg-4 col-md-6">
                 <article class="blog mb-30 art-shadow">
                     <div class="blog__thumb">
-                        <a href="#"><img src="<?=$cdn_domaine?>/media/blog3.jpg" alt=""></a>
+                        <a href="<?=$domaine?>/details"><img src="<?=$cdn_domaine?>/media/blog3.jpg" alt=""></a>
                     </div>
                     <div class="blog__content">
                         <div class="blog-meta">
@@ -390,19 +363,21 @@ include_once $layout.'/slider.php';
                         </div>
                         <div class="blog-text">
                             <h3 class="blog__content__title">
-                                <a href="#">France Extend Health Insurance  Requirement</a>
+                                <a href="<?=$domaine?>/details">France Extend Health Insurance  Requirement</a>
                             </h3>
                             <p>We have helped students, business persons, tourists, clients with medical needs......</p>
                             <div class="read-more">
-                                <a href="#">Lire la suite <i class="fal fa-long-arrow-right"></i></a>
+                                <a href="<?=$domaine?>/details">Lire la suite <i class="fal fa-long-arrow-right"></i></a>
                             </div>
                         </div>
                     </div>
                 </article>
             </div>
+
+
             <div class="col-md-12">
                 <div class="read-more">
-                    <a href="#" class="theme-btn radius-6">Voir plus d'actualités</a>
+                    <a href="<?=$domaine?>/blog" class="theme-btn radius-6">Voir plus d'actualités</a>
                 </div>
             </div>
         </div>
